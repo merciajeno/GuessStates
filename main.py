@@ -7,14 +7,14 @@ image = "blank_states_img.gif"
 turtle.addshape(image)  # adds the shape into the current shapes of the turtle class
 turtle.shape(image)
 ctr = 0  # score
-
+# hello
 
 def create_turtle(x_cord, y_cord, state):
     tur = turtle.Turtle()
     tur.penup()
     tur.goto(x_cord, y_cord)
     tur.write(arg=state, font=('Arial', 8, 'normal'))
-
+# hello
 
 states_data = pandas.read_csv("50_states.csv")
 states_list = states_data["state"].to_list()
